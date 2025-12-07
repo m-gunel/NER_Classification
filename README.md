@@ -31,10 +31,13 @@
 Датасет NEREL — это коллекция новостных текстов на русском языке, размеченных для решения задач NER и Relation Extraction (которая в рамках этого проекта интерпретируется как классификация событий на уровне документа).
 
 wget -O train.jsonl "https://huggingface.co/datasets/iluvvatar/NEREL/resolve/main/data/train.jsonl"
+
 wget -O dev.jsonl   "https://huggingface.co/datasets/iluvvatar/NEREL/resolve/main/data/dev.jsonl"
+
 wget -O test.jsonl  "https://huggingface.co/datasets/iluvvatar/NEREL/resolve/main/data/test.jsonl"
 
 wget -O ent_types.jsonl"https://huggingface.co/datasets/iluvvatar/NEREL/resolve/main/ent_types.jsonl"
+
 wget -O rel_types.jsonl "https://huggingface.co/datasets/iluvvatar/NEREL/resolve/main/rel_types.jsonl" 
 
 Формат: Данные представлены в формате JSONL, где каждая строка — это отдельный документ (новость).
